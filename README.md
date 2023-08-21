@@ -7,6 +7,7 @@ Before you begin, you should have the following tools installed on your local ma
 - Minikube cluster ( Running )
 - kubectl
 - Git
+  
 ## Installation
 1) Build the Docker image for the Reddit clone app: `docker build -t reddit-clone-app .`
 2) Deploy the app to Kubernetes: `kubectl apply -f deployment.yaml`
